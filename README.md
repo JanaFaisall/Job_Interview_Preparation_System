@@ -5,21 +5,21 @@ A Java-based desktop application developed collaboratively as part of a universi
 
 ---
 
-✏️ **My Work**
+## ✏️ **My Work**
 - Contributed to the implementation of core system features within an MVC-based architecture
 - Developed and integrated models and controllers related to interview flow and question handling
 - Assisted in designing and connecting JavaFX interfaces using Scene Builder
 
 ---
 
-🔍 **Focused On**
+## 🔍 **Focused On**
 - Clean system structure using MVC architecture
 - Logical flow between views, controllers, and models
 - User role separation (Admin, Mentor, Job Seeker)
 
 ---
 
-🛠 **Tools**
+## 🛠 **Tools**
 - Java
 - JavaFX
 - FXML Scene Builder (FXML)
@@ -27,5 +27,5 @@ A Java-based desktop application developed collaboratively as part of a universi
 
 ---
 
-👥 **Team Project**
+## 👥 **Team Project**
 This project was developed collaboratively by a student team as part of a university course requirement.
