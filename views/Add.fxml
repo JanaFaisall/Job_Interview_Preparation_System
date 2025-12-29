@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+ 
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" 
+
+      prefHeight="250.0" prefWidth="350.0" 
+
+      xmlns="http://javafx.com/javafx/23.0.1" 
+
+      xmlns:fx="http://javafx.com/fxml/1" 
+
+      fx:controller="jobinterviewpreparationsystem.AddController">
+ 
+    <children>
+<!-- Title Label -->
+<Label text="Add User:" alignment="CENTER">
+<font>
+<Font name="System Bold" size="24.0" />
+</font>
+</Label>
+<!-- GridPane for form fields -->
+<GridPane prefHeight="180.0" prefWidth="320.0">
+<columnConstraints>
+<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="150.0" />
+</columnConstraints>
+<rowConstraints>
+<RowConstraints minHeight="30.0" prefHeight="40.0" vgrow="SOMETIMES" />
+<RowConstraints minHeight="30.0" prefHeight="40.0" vgrow="SOMETIMES" />
+<RowConstraints minHeight="30.0" prefHeight="40.0" vgrow="SOMETIMES" />
+</rowConstraints>
+<padding>
+<Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+</padding>
+<children>
+<!-- User ID Label and TextField -->
+<Label text="User ID:" GridPane.columnIndex="0" GridPane.rowIndex="0">
+<font>
+<Font name="System Bold" size="18.0" />
+</font>
+</Label>
+<TextField fx:id="userIdField" promptText="Enter User ID" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+ 
+                <!-- Password Label and PasswordField -->
+<Label text="Password:" GridPane.columnIndex="0" GridPane.rowIndex="1">
+<font>
+<Font name="System Bold" size="18.0" />
+</font>
+</Label>
+<PasswordField fx:id="passwordField" promptText="Enter Password" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+ 
+                <!-- Confirm and Go Back Buttons -->
+<Button text="Confirm" onAction="#handleAddUserAction" GridPane.columnIndex="0" GridPane.rowIndex="2">
+<font>
+<Font name="System Bold" size="14.0" />
+</font>
+</Button>
+<Button text="Go Back" onAction="#handleGoBackButton" GridPane.columnIndex="1" GridPane.rowIndex="2">
+<font>
+<Font name="System Bold" size="14.0" />
+</font>
+</Button>
+</children>
+</GridPane>
+</children>
+ 
+    <!-- Padding around the VBox -->
+<padding>
+<Insets bottom="10.0" left="20.0" right="20.0" top="20.0" />
+</padding>
+</VBox>
+
+ 
